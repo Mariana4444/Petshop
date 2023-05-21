@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*cuerpo de la pagina */
+
+body  {
+  background-color: gainsboro; 
+
+
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+
+nav {
+  background-color: rgb(216, 185, 201);
+  width: 100%;
+}
+
+.container-fluid{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+
+
+
+.navbar-brand{
+  background-color: rgb(216, 185, 201);
+}
+
+.offcanvas-body{
+  background-color: rgb(216, 185, 201);
+}
+
+.offcanvas-header{
+  background-color: rgb(216, 185, 201)
+
+}
+
+
+
+
+
+
+
+
+/*imagenes central de la pagina */
+
+main{
+  width: 100%;
+ 
+  background-color: lavenderblush;
+  
+ display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+/*imagenes redondas  */
+
+
+.imagenPrincipal {
+width: 100%;
+display: flex;
+background-color: rgb(216, 185, 201); 
+
+
+text-align: center;
+margin-top: 60px;
+}
+
+.imagenPrincipal img{
+  object-fit: cover;
+  margin: 0 auto;
+
+}
+
+/*imagenes perro */
+
+.contenedordeCards{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+  background-color: rgb(216, 185, 201); 
+
+}
+
+.card{
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  background-color: rgb(216, 185, 201); 
+
+  
+}
+
+
+.elipse{
+  width: 100%;
+  height: 100%;
+
+ 
+}
+
+.elipse img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+
+border-radius: 50%;
+}
+
+.leyenda {
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*imagen gato  */
+
+
+.gato {
+  width: 700px;
+  height: 800px;
+}
+
+.gato img{
+width: 45%;
+height: 40%;
+border-radius: 60%;
+padding-top: 50px;
+}
+
+.nombre-gato {
+  font-size: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+/*imagen ave */
+
+
+.ave{
+  width: 700px;
+  height: 800px;
+}
+
+.ave img{
+width: 45%;
+height: 40%;
+border-radius: 60%;
+padding-top: 50px;
+}
+
+.nombre-aves {
+  font-size: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  main{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+  background-color: aquamarine;
+}
+/*no me aumenta de tamaño la foto*/
+.primerafoto{
+  grid-column: 1 / 3;
+  grid-row: 1;
+  width: 10%;
+  height: 10%;
+  }
+
+.segundafoto{
+  grid-column: 1/ 3;
+  grid-row: 1;
+  width: 5%;
+  height: 10%;
+}
+
+.tercerafoto{
+  grid-column: 1/ 3;
+  grid-row: 1;
+  width: 5%;
+  height: 10%;
+}
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+ 
+
